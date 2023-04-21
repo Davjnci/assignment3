@@ -1,0 +1,85 @@
+@media screen and (max-width: 767px) {
+  .img-banner {
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+  }
+  /* hidden avatar */
+  .default-avatar {
+    display: none;
+  }
+  .nav-bar {
+    display: block;
+    margin: 40px 0 0 20px;
+    padding: 0;
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+  .nav-bar a {
+    margin: 0;
+    display: block;
+    width: 100%;
+  }
+  .nav-sub {
+    width: 100%;
+    text-align: start;
+  }
+  /* information fix */
+  .info {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .target {
+    position: relative;
+  }
+  /* profile fix */
+  .profile {
+    grid-template-columns: 1fr;
+    margin: 10px;
+    padding: 0;
+  }
+  /* cert fix */
+  .certificate {
+    margin: 0;
+    padding: 0;
+  }
+  .cert {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .certificate h3 {
+    margin: 20px;
+  }
+  .cert img {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .cert_2 {
+    border-left: none;
+    border-top: 2px solid #f3c0a0;
+  }
+  .cert_3 {
+    border-top: 2px solid #f3c0a0;
+  }
+  .cert_4 {
+    display: none;
+  }
+  /* project fix */
+  #project h3 {
+    margin: 10px;
+  }
+  .project {
+    margin: 10px 0 0 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .img-project {
+    height: auto;
+    width: 100%;
+  }
+  /* footer fix */
+  .footer-link a {
+    display: none;
+  }
+}

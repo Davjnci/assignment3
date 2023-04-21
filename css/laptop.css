@@ -1,0 +1,257 @@
+* {
+  font-family: "Times New Roman", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  z-index: 1;
+}
+
+.bg-gray {
+  background-color: #d8d8d8;
+  padding: 10px 0;
+}
+/* BANNER */
+.banner {
+  position: relative;
+  width: auto;
+  z-index: 1;
+}
+.img-banner {
+  height: auto;
+  width: 100%;
+}
+.name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* END BANNER */
+/* NAVIGATION */
+.nav-bar {
+  display: inline-block;
+  position: absolute;
+  margin-top: 10px;
+  width: 100%;
+  margin-top: -50px;
+  z-index: 2;
+}
+.nav-bar i {
+  color: #5bcdfa;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+.nav-sub {
+  width: 19%;
+  display: inline-block;
+  text-align: center;
+}
+.default-avatar {
+  display: inline-block;
+  margin-left: 20px;
+}
+.default-avatar img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+/* END NAVIGATION */
+/* INFORMATION */
+.info {
+  margin-top: 40px;
+  width: auto;
+  z-index: 1;
+  position: relative;
+}
+.info-details {
+  width: 50%;
+  margin: 60px;
+}
+.target {
+  background-color: #d8d8d8;
+}
+.personal-info {
+  background-color: #cccccc;
+}
+.personal-info span {
+  font-weight: bold;
+}
+.personal-info i {
+  color: #5bcdfa;
+}
+/* END INFORMATION */
+/* PROFILE */
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.fix {
+  margin: 100px 200px 50px 200px;
+}
+.title-fix {
+  margin-top: 10px;
+  display: flex;
+}
+.title {
+  width: 75%;
+  margin-left: 20px;
+}
+.icon {
+  width: 25%;
+  font-size: 30px;
+}
+.content {
+  display: inline-block;
+  height: 350px;
+  width: auto;
+  margin: 10px 20px;
+  font-size: 12px;
+}
+.lang {
+  height: 350px;
+}
+.skill {
+  height: 350px;
+}
+.hobby {
+  height: 350px;
+}
+.content span {
+  font-weight: bold;
+}
+.hobby .content {
+  display: flex;
+  margin: 50px 10px 20px 50px;
+}
+.border-fix {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #5bcdfa;
+  border-radius: 50%;
+  margin: 4px;
+}
+.hobby .content i {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 16px;
+}
+.hobby .content span {
+  margin: 5px;
+}
+
+.content .span_blue {
+  display: inline-block;
+  height: 6px;
+  width: 60px;
+  border-radius: 5px;
+  background-color: #5bcdfa;
+}
+.content .span_grey {
+  display: inline-block;
+  height: 6px;
+  width: 60px;
+  border-radius: 5px;
+  background-color: #cccccc;
+}
+/* END PROFILE */
+
+/* CERTIFICATE */
+.certificate {
+  margin: 100px 200px 50px 200px;
+}
+.certificate h3 {
+  margin-bottom: 10px;
+}
+.cert {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cert img {
+  height: 120px;
+  width: 180px;
+}
+.cert-details {
+  display: inline-block;
+  font-size: 12px;
+  margin: 50px;
+}
+.cert_2 {
+  border-left: 2px solid #f3c0a0;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.cert_3 {
+  border-top: 2px solid #f3c0a0;
+}
+.cert_4 {
+  border-top: 2px solid #f3c0a0;
+}
+/* END CERTIFICATE */
+/* PROJECT */
+#project h3 {
+  margin: 20px 0 0 200px;
+}
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 200px 20px 200px;
+}
+.img-project {
+  height: auto;
+  width: 100%;
+}
+.project-title {
+  border: 1px solid #c0d1c2;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.project-detail {
+  border: 1px solid #c0d1c2;
+  padding: 5px 15px 5px 15px;
+}
+.project-detail span {
+  margin-left: 10px;
+  background-color: #5bcdfa;
+  border-radius: 5px;
+}
+.project-detail i {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+table {
+  border: 1px solid #c0d1c2;
+  border-collapse: collapse;
+  padding: 5px 15px 5px 15px;
+  height: 220px;
+}
+td {
+  border-top: 1px solid #c0d1c2;
+  padding: 5px 15px 5px 15px;
+  font-size: small;
+}
+/* END PROJECT */
+/* FOOTER */
+
+.footer-link {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-link i {
+  color: #5bcdfa;
+  font-size: 2rem;
+}
+.footer-link a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+/* END FOOTER */

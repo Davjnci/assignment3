@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .img-banner {
+    height: 100%;
+    max-width: 100%;
+  }
+  /* hidden avatar */
+  .default-avatar {
+    display: none;
+  }
+  /* navigation fix */
+  .nav-bar {
+    margin-top: 5px;
+    margin-right: 45px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .nav-bar a {
+    margin-left: 40px;
+    font-size: 10px;
+  }
+  /* infomation fix */
+  .info {
+    margin-top: 5px;
+    height: auto;
+    width: auto;
+  }
+  /* profile fix */
+  .profile {
+    margin: 10px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .hobby {
+    height: auto;
+  }
+  /* cert fix */
+  .certificate {
+    margin: 0;
+    padding: 0;
+  }
+  .certificate h3 {
+    margin: 20px;
+  }
+  .cert img {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  /* project fix */
+  #project h3 {
+    margin: 10px;
+  }
+  .project {
+    margin: 10px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .img-project {
+    height: auto;
+    width: 100%;
+  }
+}
