@@ -232,9 +232,7 @@ td {
 /* FOOTER */
 
 .footer-link {
-  margin: 20px 0;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .footer-link i {
@@ -243,9 +241,7 @@ td {
 }
 .footer-link a {
   text-decoration: none;
-  color: black;
-  margin: 5px;
-  vertical-align: middle;
+  color: #252826;
+  margin: auto 10px;
 }
-
 /* END FOOTER */
